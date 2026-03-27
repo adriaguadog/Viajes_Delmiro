@@ -531,14 +531,14 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+  .topbar {
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
-  .nav a {
-    width: 100%;
-    text-align: left;
+  .nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 }
